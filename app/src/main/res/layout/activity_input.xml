@@ -44,6 +44,7 @@
         app:layout_constraintTop_toTopOf="@+id/linearLayout">
 
         <EditText
+            android:paddingTop="20dp"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,17 +71,18 @@
             android:orientation="horizontal"
             >
             <ImageButton
+                android:id="@+id/Button1"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:src="@drawable/camera"
-                android:background="@color/cardview_light_background"></ImageButton>
+                android:layout_width="100dp"
+                android:src="@drawable/camera"></ImageButton>
+
+            <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:src="@drawable/potrait" android:layout_width="wrap_content"></ImageView>
 
             <ImageButton
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/edit"
-                android:background="@color/cardview_light_background"></ImageButton>
+                android:src="@drawable/edit"></ImageButton>
         </LinearLayout>
 
         <Button

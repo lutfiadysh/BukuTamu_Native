@@ -25,9 +25,9 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/app_name"
+            android:fontFamily="@font/opensanslight"
             android:textColor="#fff"
-            android:textSize="20dp"
-            android:textStyle="bold">
+            android:textSize="30dp">
 
         </TextView>
     </LinearLayout>
@@ -36,7 +36,7 @@
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="370dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
