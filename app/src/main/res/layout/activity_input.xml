@@ -44,6 +44,7 @@
         app:layout_constraintTop_toTopOf="@+id/linearLayout">
 
         <EditText
+            android:id="@+id/nama"
             android:paddingTop="20dp"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
@@ -51,12 +52,14 @@
             android:hint="Nama" />
 
         <EditText
+            android:id="@+id/asal"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Asal Instansi" />
 
         <EditText
+            android:id="@+id/tujuan"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -86,6 +89,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/bt_submit"
             android:layout_margin="10dp"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
